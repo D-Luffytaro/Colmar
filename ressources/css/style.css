@@ -1,0 +1,80 @@
+/* Universal */
+
+html {
+    font-size: 16px;
+    background-color: rgb(216, 216, 216);
+}
+
+body {
+    margin: auto;
+}
+
+/* Header Section */
+
+header {
+    display: flex;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header div {
+    display: flex;
+}
+
+strong {
+    color: rgb(74, 74, 74);
+}
+
+span {
+    color: rgb(155, 155, 155);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 16px;
+    color: rgb(74, 74, 74);
+}
+
+.mobile-header {
+    display: none;
+}
+
+/* Banner Section */
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 60%;
+    padding: 32px 24px 32px 24px;
+}
+
+.banner h1 {
+    font-size: 3.2rem;
+    color: rgb(74, 74, 74);
+}
+
+.subhead {
+    font-size: 2rem;
+    color: rgb(74, 74, 74);
+}
+
+.button {
+    font-size: 1.5rem;
+    background-color: rgb(74, 74, 74);
+    color: white;
+}
