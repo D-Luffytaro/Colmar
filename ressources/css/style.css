@@ -93,8 +93,26 @@ li a {
     display: inline-flex;
 }
 
+.main-left {
+    padding: 32px 24px;
+}
+
 .main-left img {
+    width: 60%;  
+}
+
+.content-main h2 {
+    font-size: 2.5rem;
+    color: rgb(74, 74, 74);
+}
+
+.content-main p {
     width: 60%;
+}
+
+.item img {
+    width: 35%;
+    height: auto;
 }
 
 /* Courses Section */
