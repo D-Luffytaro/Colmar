@@ -89,7 +89,12 @@ li a {
 /* Main Section */
 
 .main {
-    background-color: rgb(243, 245, 245)
+    background-color: rgb(243, 245, 245);
+    display: inline-flex;
+}
+
+.main-left img {
+    width: 60%;
 }
 
 /* Courses Section */
