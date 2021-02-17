@@ -91,10 +91,12 @@ li a {
 .main {
     background-color: rgb(243, 245, 245);
     display: inline-flex;
+    width: 100%;
 }
 
 .main-left {
     padding: 32px 24px;
+    width: 60%;
 }
 
 .main-left img {
@@ -113,7 +115,16 @@ li a {
 .item img {
     width: 35%;
     height: auto;
+    padding: 16px;
+    
 }
+
+div .item {
+    display: flex;
+    border: solid rgb(224, 226, 226) 1px;
+}
+
+
 
 /* Courses Section */
 
