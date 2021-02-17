@@ -124,9 +124,26 @@ div .item {
     border: solid rgb(224, 226, 226) 1px;
 }
 
-
-
 /* Courses Section */
+
+section.courses {
+    padding: 32px 72px;
+}
+
+.flex-courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.courses-item {
+    background-color: rgb(255, 255, 255);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.courses-item img {
+    height: auto;
+}
 
 /* Thesis Section */
 
