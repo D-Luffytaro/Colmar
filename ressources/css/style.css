@@ -147,4 +147,21 @@ div.courses-item {
 
 /* Thesis Section */
 
+.thesis {
+    background-color: rgb(243, 245, 245);
+    border-bottom: rgb(224, 226, 226);
+}
+
+.flex-thesis {
+    display: inline-flex;
+}
+
+.thesis video {
+    width: 60%;
+}
+
+div .thesis-right {
+    display: block;
+}
+
 /* Footer Section */
