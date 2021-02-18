@@ -3,6 +3,7 @@
 html {
     font-size: 16px;
     background-color: rgb(243, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -23,6 +24,14 @@ header {
 
 header div {
     display: flex;
+}
+
+.logo {
+    width: 40px;
+}
+
+.logo-header {
+    font-size: 1.5rem;
 }
 
 strong {
@@ -66,7 +75,7 @@ li a {
 }
 
 .banner-right {
-    padding-right: 150px;
+    padding-right: 100px;
 }
 
 .banner h1 {
@@ -89,18 +98,17 @@ li a {
 
 /* Main Section */
 
-.main {
+ section .main {
     background-color: rgb(243, 245, 245);
     display: inline-flex;
-    width: 100%;
+    width: auto;
 }
 
 .main-left {
     padding: 32px 24px;
-    width: 60%;
 }
 
-.main-left img {
+.main img {
     width: 60%;  
 }
 
@@ -164,6 +172,10 @@ div.courses-item {
 
 div .thesis-right {
     display: block;
+}
+
+div .item-thesis {
+    display: flex;
 }
 
 /* Footer Section */
