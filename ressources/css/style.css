@@ -236,20 +236,70 @@ div #software, #art, #design {
     border-bottom: solid 3px rgb(233, 235, 235);
 }
 
-.flex-thesis {
-    display: inline-flex;
+.thesis h2 {
+    margin: 0;
+    padding: 32px 0px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(74, 74, 74);
+}
+
+div.flex-thesis {
+    display: flex;
+}
+
+div .thesis-left {
+    max-width: 60%;
+    padding: 0px 24px 32px 24px;
 }
 
 .thesis video {
-    width: 60%;
+    width: 100%;
+}
+
+.info-video h3 {
+    padding: 8px 0px;
+    margin: 0;
+    font-size: 1.4rem;
+    color: rgb(74, 74, 74);
+}
+
+.info-video p {
+    margin: 0;
+    color: rgb(118, 118, 118);
 }
 
 div .thesis-right {
-    display: block;
+    max-width: 40%;
 }
 
 div .item-thesis {
     display: flex;
+}
+
+.item-thesis img {
+    max-width: 35%;
+    height: auto;
+    padding: 16px 16px;
+}
+
+div #fisma {
+    background-color: rgb(216, 216, 216);
+}
+
+div .content-thesis {
+    width: 65%;
+    margin: auto 0;
+}
+
+.content-thesis h3 {
+    font-size: 1.4rem;
+    color: rgb(74, 74, 74);
+    margin: 0;
+}
+
+.content-thesis p {
+    color: rgb(137, 137, 137);
 }
 
 /* Footer Section */
