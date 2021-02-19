@@ -173,19 +173,57 @@ section.courses {
     background-color: rgb(234, 235, 236);
 }
 
+.courses h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 32px;
+    font-size: 2.5rem;
+    color: rgb(74, 74, 74);
+}
+
 .flex-courses {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-div.courses-item {
+div .courses-item {
     background-color: rgb(255, 255, 255);
-    margin-top: 32px;
+    width: 30%;
+}
+.content-courses h3, p, span {
+    margin: 0;
+}
+
+.content-courses {
+    padding: 16px 16px 24px 16px;
+}
+
+.content-courses h3 {
+    font-size: 1.4rem;
+    color: rgb(74, 74, 74);
+}
+
+.content-courses p, span {
+    font-size: 1.05rem;
+    color: rgb(137, 137, 137);
+}
+
+.content-courses p {
+    padding: 8px 0px;
+}
+
+div #software, #art, #data, #business {
+    margin-right: 32px;
+}
+
+div #software, #art, #design {
     margin-bottom: 32px;
 }
 
 .courses-item img {
     height: auto;
+    width: 100%;
 }
 
 /* Thesis Section */
