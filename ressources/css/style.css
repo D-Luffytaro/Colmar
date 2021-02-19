@@ -306,4 +306,16 @@ div .content-thesis {
 
 footer {
     background-color: rgb(243, 245, 245);
+    color: rgb(162, 163, 163);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 32px 24px;
+}
+
+div.footer-right {
+    display: flex;
+}
+
+p.right {
+    padding-right: 10px;
 }
