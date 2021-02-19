@@ -22,8 +22,9 @@ header {
     background-color: white;
 }
 
-header div {
+header .header-left {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -34,11 +35,11 @@ header div {
     font-size: 1.5rem;
 }
 
-strong {
+.header-left strong {
     color: rgb(74, 74, 74);
 }
 
-span {
+.header-left span {
     color: rgb(155, 155, 155);
 }
 
@@ -191,9 +192,6 @@ div .courses-item {
     background-color: rgb(255, 255, 255);
     width: 30%;
 }
-.content-courses h3, p, span {
-    margin: 0;
-}
 
 .content-courses {
     padding: 16px 16px 24px 16px;
@@ -202,15 +200,20 @@ div .courses-item {
 .content-courses h3 {
     font-size: 1.4rem;
     color: rgb(74, 74, 74);
+    margin: 0;
 }
 
-.content-courses p, span {
+.content-courses span {
+    margin: 0;
     font-size: 1.05rem;
     color: rgb(137, 137, 137);
 }
 
 .content-courses p {
     padding: 8px 0px;
+    margin: 0;
+    font-size: 1.05rem;
+    color: rgb(137, 137, 137);
 }
 
 div #software, #art, #data, #business {
