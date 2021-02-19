@@ -122,22 +122,48 @@ li a {
 .content-main p {
     margin: 0;
     padding: 24px 0;
+    font-size: 1.05rem;
+    width: 95%;
 }
 
 .main-right {
     max-width: 40%;
+    border-left: solid rgb(224, 226, 226) 1px;
+    padding-top: 16px;
 }
 
 .item img {
-    width: 35%;
+    max-width: 35%;
     height: auto;
     padding: 16px;
-    
 }
 
 div .item {
     display: flex;
-    border: solid rgb(224, 226, 226) 1px;
+    border-bottom: solid rgb(224, 226, 226) 1px;
+}
+
+div .content-information {
+    margin: auto 0;
+}
+
+.content-information p {
+    padding: 8px 8px 8px 0px;
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.content-information h3 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+div #guest {
+    background-color: rgb(216, 216, 216);
 }
 
 /* Courses Section */
