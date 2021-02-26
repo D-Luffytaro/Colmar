@@ -203,14 +203,14 @@ div .courses-item {
     margin: 0;
 }
 
-.content-courses span {
+p.subtitle {
+    padding: 8px 0px;
     margin: 0;
     font-size: 1.05rem;
     color: rgb(137, 137, 137);
 }
 
-.content-courses p {
-    padding: 8px 0px;
+p.matter {
     margin: 0;
     font-size: 1.05rem;
     color: rgb(137, 137, 137);
