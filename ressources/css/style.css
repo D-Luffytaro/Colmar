@@ -14,7 +14,7 @@ body {
 
 header {
     display: flex;
-    height: 64px;
+    height: 4rem;
     padding-left: 24px;
     padding-right: 24px;
     align-items: center;
@@ -43,15 +43,15 @@ header .header-left {
     color: rgb(155, 155, 155);
 }
 
-ul {
+.nav ul {
     display: flex;
 }
 
-ul li {
+.nav li {
     list-style: none;
 }
 
-li a {
+.nav a {
     text-decoration: none;
     font-size: 1.2rem;
     padding: 16px;
@@ -312,10 +312,12 @@ footer {
     padding: 16px 24px 32px 24px;
 }
 
-div.footer-right {
+.footer-right {
     display: flex;
+    list-style: none;
 }
 
-p.right {
-    padding-right: 10px;
+.footer-right a {
+    text-decoration: none;
+    padding: 10px;
 }
